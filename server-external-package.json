@@ -1,0 +1,30 @@
+{
+  "name": "chat-websocket-server",
+  "version": "1.0.0",
+  "description": "Servidor WebSocket externo para sistema de chat en GitHub Pages",
+  "main": "server-external.js",
+  "scripts": {
+    "start": "node server-external.js",
+    "dev": "nodemon server-external.js"
+  },
+  "keywords": [
+    "websocket",
+    "chat",
+    "realtime",
+    "github-pages",
+    "socket.io"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
